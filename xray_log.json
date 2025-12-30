@@ -1,0 +1,652 @@
+[
+    {
+        "step": "\ud83d\udcdd keyword_generation",
+        "timestamp": "2025-12-29 23:02:56.990025",
+        "input": {
+            "title": "Stainless Steel Water Bottle 32oz Insulated",
+            "category": "Sports & Outdoors",
+            "price": 29.99,
+            "rating": 4.2,
+            "reviews": 1247
+        },
+        "output": {
+            "keywords": [
+                "stainless steel water bottle insulated",
+                "vacuum insulated bottle 32oz",
+                "sports water bottle"
+            ],
+            "model": "mock-llm"
+        },
+        "reasoning": "Extracted key attributes: material, capacity, feature"
+    },
+    {
+        "step": "\ud83d\udd0d candidate_search",
+        "timestamp": "2025-12-29 23:02:56.992028",
+        "input": {
+            "keyword": "stainless steel water bottle insulated",
+            "limit": 50
+        },
+        "output": {
+            "candidates_fetched": 30,
+            "candidates": [
+                {
+                    "asin": "B0COMP01",
+                    "title": "Mock Product 1",
+                    "price": 17.88,
+                    "rating": 3.1,
+                    "reviews": 7873
+                },
+                {
+                    "asin": "B0COMP02",
+                    "title": "Mock Product 2",
+                    "price": 64.2,
+                    "rating": 3.4,
+                    "reviews": 6376
+                },
+                {
+                    "asin": "B0COMP03",
+                    "title": "Mock Product 3",
+                    "price": 32.63,
+                    "rating": 4.5,
+                    "reviews": 2548
+                },
+                {
+                    "asin": "B0COMP04",
+                    "title": "Mock Product 4",
+                    "price": 38.95,
+                    "rating": 3.1,
+                    "reviews": 9187
+                },
+                {
+                    "asin": "B0COMP05",
+                    "title": "Mock Product 5",
+                    "price": 31.02,
+                    "rating": 3.4,
+                    "reviews": 2897
+                },
+                {
+                    "asin": "B0COMP06",
+                    "title": "Mock Product 6",
+                    "price": 89.34,
+                    "rating": 4.6,
+                    "reviews": 5264
+                },
+                {
+                    "asin": "B0COMP07",
+                    "title": "Mock Product 7",
+                    "price": 69.84,
+                    "rating": 3.9,
+                    "reviews": 4879
+                },
+                {
+                    "asin": "B0COMP08",
+                    "title": "Mock Product 8",
+                    "price": 13.55,
+                    "rating": 3.3,
+                    "reviews": 1847
+                },
+                {
+                    "asin": "B0COMP09",
+                    "title": "Mock Product 9",
+                    "price": 54.15,
+                    "rating": 3.2,
+                    "reviews": 2584
+                },
+                {
+                    "asin": "B0COMP10",
+                    "title": "Mock Product 10",
+                    "price": 88.8,
+                    "rating": 4.0,
+                    "reviews": 1218
+                },
+                {
+                    "asin": "B0COMP11",
+                    "title": "Mock Product 11",
+                    "price": 55.02,
+                    "rating": 4.8,
+                    "reviews": 9917
+                },
+                {
+                    "asin": "B0COMP12",
+                    "title": "Mock Product 12",
+                    "price": 32.35,
+                    "rating": 3.2,
+                    "reviews": 4710
+                },
+                {
+                    "asin": "B0COMP13",
+                    "title": "Mock Product 13",
+                    "price": 54.11,
+                    "rating": 3.6,
+                    "reviews": 7614
+                },
+                {
+                    "asin": "B0COMP14",
+                    "title": "Mock Product 14",
+                    "price": 68.1,
+                    "rating": 4.6,
+                    "reviews": 2325
+                },
+                {
+                    "asin": "B0COMP15",
+                    "title": "Mock Product 15",
+                    "price": 50.28,
+                    "rating": 4.5,
+                    "reviews": 9781
+                },
+                {
+                    "asin": "B0COMP16",
+                    "title": "Mock Product 16",
+                    "price": 66.02,
+                    "rating": 4.6,
+                    "reviews": 973
+                },
+                {
+                    "asin": "B0COMP17",
+                    "title": "Mock Product 17",
+                    "price": 51.91,
+                    "rating": 4.7,
+                    "reviews": 6791
+                },
+                {
+                    "asin": "B0COMP18",
+                    "title": "Mock Product 18",
+                    "price": 47.15,
+                    "rating": 4.1,
+                    "reviews": 6838
+                },
+                {
+                    "asin": "B0COMP19",
+                    "title": "Mock Product 19",
+                    "price": 74.06,
+                    "rating": 3.5,
+                    "reviews": 7221
+                },
+                {
+                    "asin": "B0COMP20",
+                    "title": "Mock Product 20",
+                    "price": 70.17,
+                    "rating": 4.5,
+                    "reviews": 5715
+                },
+                {
+                    "asin": "B0COMP21",
+                    "title": "Mock Product 21",
+                    "price": 69.75,
+                    "rating": 3.2,
+                    "reviews": 6547
+                },
+                {
+                    "asin": "B0COMP22",
+                    "title": "Mock Product 22",
+                    "price": 22.11,
+                    "rating": 4.9,
+                    "reviews": 1979
+                },
+                {
+                    "asin": "B0COMP23",
+                    "title": "Mock Product 23",
+                    "price": 83.55,
+                    "rating": 3.4,
+                    "reviews": 4366
+                },
+                {
+                    "asin": "B0COMP24",
+                    "title": "Mock Product 24",
+                    "price": 11.18,
+                    "rating": 3.9,
+                    "reviews": 2319
+                },
+                {
+                    "asin": "B0COMP25",
+                    "title": "Mock Product 25",
+                    "price": 15.09,
+                    "rating": 3.6,
+                    "reviews": 6342
+                },
+                {
+                    "asin": "B0COMP26",
+                    "title": "Mock Product 26",
+                    "price": 72.59,
+                    "rating": 4.2,
+                    "reviews": 4201
+                },
+                {
+                    "asin": "B0COMP27",
+                    "title": "Mock Product 27",
+                    "price": 10.36,
+                    "rating": 4.9,
+                    "reviews": 8659
+                },
+                {
+                    "asin": "B0COMP28",
+                    "title": "Mock Product 28",
+                    "price": 18.87,
+                    "rating": 3.4,
+                    "reviews": 8743
+                },
+                {
+                    "asin": "B0COMP29",
+                    "title": "Mock Product 29",
+                    "price": 29.24,
+                    "rating": 4.5,
+                    "reviews": 4142
+                },
+                {
+                    "asin": "B0COMP30",
+                    "title": "Mock Product 30",
+                    "price": 33.53,
+                    "rating": 4.4,
+                    "reviews": 7949
+                }
+            ]
+        },
+        "reasoning": "Fetched top mock candidates"
+    },
+    {
+        "step": "\ud83c\udfc6 apply_filters_and_rank",
+        "timestamp": "2025-12-29 23:02:56.992028",
+        "input": {
+            "reference_product": {
+                "title": "Stainless Steel Water Bottle 32oz Insulated",
+                "category": "Sports & Outdoors",
+                "price": 29.99,
+                "rating": 4.2,
+                "reviews": 1247
+            }
+        },
+        "output": {
+            "passed": 8,
+            "failed": 22,
+            "selection": {
+                "asin": "B0COMP11",
+                "title": "Mock Product 11",
+                "price": 55.02,
+                "rating": 4.8,
+                "reviews": 9917
+            }
+        },
+        "reasoning": "Filtered and ranked candidates by review count, rating, price",
+        "evaluations": [
+            {
+                "asin": "B0COMP01",
+                "title": "Mock Product 1",
+                "metrics": {
+                    "price": 17.88,
+                    "rating": 3.1,
+                    "reviews": 7873
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP02",
+                "title": "Mock Product 2",
+                "metrics": {
+                    "price": 64.2,
+                    "rating": 3.4,
+                    "reviews": 6376
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range",
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP03",
+                "title": "Mock Product 3",
+                "metrics": {
+                    "price": 32.63,
+                    "rating": 4.5,
+                    "reviews": 2548
+                },
+                "qualified": true,
+                "fail_reasons": []
+            },
+            {
+                "asin": "B0COMP04",
+                "title": "Mock Product 4",
+                "metrics": {
+                    "price": 38.95,
+                    "rating": 3.1,
+                    "reviews": 9187
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP05",
+                "title": "Mock Product 5",
+                "metrics": {
+                    "price": 31.02,
+                    "rating": 3.4,
+                    "reviews": 2897
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP06",
+                "title": "Mock Product 6",
+                "metrics": {
+                    "price": 89.34,
+                    "rating": 4.6,
+                    "reviews": 5264
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP07",
+                "title": "Mock Product 7",
+                "metrics": {
+                    "price": 69.84,
+                    "rating": 3.9,
+                    "reviews": 4879
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP08",
+                "title": "Mock Product 8",
+                "metrics": {
+                    "price": 13.55,
+                    "rating": 3.3,
+                    "reviews": 1847
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range",
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP09",
+                "title": "Mock Product 9",
+                "metrics": {
+                    "price": 54.15,
+                    "rating": 3.2,
+                    "reviews": 2584
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP10",
+                "title": "Mock Product 10",
+                "metrics": {
+                    "price": 88.8,
+                    "rating": 4.0,
+                    "reviews": 1218
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP11",
+                "title": "Mock Product 11",
+                "metrics": {
+                    "price": 55.02,
+                    "rating": 4.8,
+                    "reviews": 9917
+                },
+                "qualified": true,
+                "fail_reasons": []
+            },
+            {
+                "asin": "B0COMP12",
+                "title": "Mock Product 12",
+                "metrics": {
+                    "price": 32.35,
+                    "rating": 3.2,
+                    "reviews": 4710
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP13",
+                "title": "Mock Product 13",
+                "metrics": {
+                    "price": 54.11,
+                    "rating": 3.6,
+                    "reviews": 7614
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP14",
+                "title": "Mock Product 14",
+                "metrics": {
+                    "price": 68.1,
+                    "rating": 4.6,
+                    "reviews": 2325
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP15",
+                "title": "Mock Product 15",
+                "metrics": {
+                    "price": 50.28,
+                    "rating": 4.5,
+                    "reviews": 9781
+                },
+                "qualified": true,
+                "fail_reasons": []
+            },
+            {
+                "asin": "B0COMP16",
+                "title": "Mock Product 16",
+                "metrics": {
+                    "price": 66.02,
+                    "rating": 4.6,
+                    "reviews": 973
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP17",
+                "title": "Mock Product 17",
+                "metrics": {
+                    "price": 51.91,
+                    "rating": 4.7,
+                    "reviews": 6791
+                },
+                "qualified": true,
+                "fail_reasons": []
+            },
+            {
+                "asin": "B0COMP18",
+                "title": "Mock Product 18",
+                "metrics": {
+                    "price": 47.15,
+                    "rating": 4.1,
+                    "reviews": 6838
+                },
+                "qualified": true,
+                "fail_reasons": []
+            },
+            {
+                "asin": "B0COMP19",
+                "title": "Mock Product 19",
+                "metrics": {
+                    "price": 74.06,
+                    "rating": 3.5,
+                    "reviews": 7221
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range",
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP20",
+                "title": "Mock Product 20",
+                "metrics": {
+                    "price": 70.17,
+                    "rating": 4.5,
+                    "reviews": 5715
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP21",
+                "title": "Mock Product 21",
+                "metrics": {
+                    "price": 69.75,
+                    "rating": 3.2,
+                    "reviews": 6547
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range",
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP22",
+                "title": "Mock Product 22",
+                "metrics": {
+                    "price": 22.11,
+                    "rating": 4.9,
+                    "reviews": 1979
+                },
+                "qualified": true,
+                "fail_reasons": []
+            },
+            {
+                "asin": "B0COMP23",
+                "title": "Mock Product 23",
+                "metrics": {
+                    "price": 83.55,
+                    "rating": 3.4,
+                    "reviews": 4366
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range",
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP24",
+                "title": "Mock Product 24",
+                "metrics": {
+                    "price": 11.18,
+                    "rating": 3.9,
+                    "reviews": 2319
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP25",
+                "title": "Mock Product 25",
+                "metrics": {
+                    "price": 15.09,
+                    "rating": 3.6,
+                    "reviews": 6342
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP26",
+                "title": "Mock Product 26",
+                "metrics": {
+                    "price": 72.59,
+                    "rating": 4.2,
+                    "reviews": 4201
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP27",
+                "title": "Mock Product 27",
+                "metrics": {
+                    "price": 10.36,
+                    "rating": 4.9,
+                    "reviews": 8659
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "price out of range"
+                ]
+            },
+            {
+                "asin": "B0COMP28",
+                "title": "Mock Product 28",
+                "metrics": {
+                    "price": 18.87,
+                    "rating": 3.4,
+                    "reviews": 8743
+                },
+                "qualified": false,
+                "fail_reasons": [
+                    "rating too low"
+                ]
+            },
+            {
+                "asin": "B0COMP29",
+                "title": "Mock Product 29",
+                "metrics": {
+                    "price": 29.24,
+                    "rating": 4.5,
+                    "reviews": 4142
+                },
+                "qualified": true,
+                "fail_reasons": []
+            },
+            {
+                "asin": "B0COMP30",
+                "title": "Mock Product 30",
+                "metrics": {
+                    "price": 33.53,
+                    "rating": 4.4,
+                    "reviews": 7949
+                },
+                "qualified": true,
+                "fail_reasons": []
+            }
+        ]
+    }
+]
